@@ -1,26 +1,27 @@
 (To Be approved at community meeting)
 
-#Proposed timeline
-Kubernetes 1.5 is set to release on Dec 8, 2016.
-
-December tends to have a lot of vacation time towards the end, and we want to have a little buffer time in case of slips.  As a result, we will begin the 1.6 release the first week of 2017.
+#Proposed timeline for 1.6
+Since Kubernetes 1.5 is set to release on Dec 8, 2016, and December tends to have a lot of vacation time, we will begin the 1.6 release the first week of 2017.
+We will use the time between releases for planning, designing and bugfixes.
 
 The proposal below is identical in layout to the 1.4 and 1.5 plans:
 - key days aren't Fridays, since it can be hard to end milestones right up against weekends
 - there are fewer major holidays and vacation breaks this quarter 
 
 ##1.6 Overview
+- Dec 8 - Jan 3: planning/design/bugfix period
 - Jan 3 (Tues) coding start (7w)
-- Feb 24 (Fri) feature complete, move to bugfix (4w)
+- Jan 24 (Tues) features repo freeze
+- Feb 27 (Mon) feature complete, move to bugfix (4w)
 - March 22 (Weds) release
 
-##1.5 Details
+##1.6 Details
 
-###Jan 3 - Feb 24
+###Jan 3 - Feb 27
 - 7 week coding period
-- Release 1.5 alphas every 2 weeks
+- Release 1.6 alphas every 2 weeks
 
-###Feb 24 - Mar 22
+###Feb 27 - Mar 22
 - Enter code slush on head, no more features or major refactors
 - Fix bugs and run tests
 - Start Milestone Burndown meetings
@@ -29,7 +30,7 @@ The proposal below is identical in layout to the 1.4 and 1.5 plans:
 ###Mar 8 - Mar 22
 - Open head for 1.6 work on Mar 18, after branch
 - Fix bugs and run tests, update docs
-- Release 1.5 on March 22
+- Release 1.6 on March 22
 
 
 #Key features
